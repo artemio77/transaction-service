@@ -1,0 +1,13 @@
+---
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    hikari:
+      driver-class-name: org.postgresql.Driver
+      jdbc-url: jdbc:postgresql://localhost:5432/postgres
+      password: postgres
+      username: postgres
+      maximum-pool-size: 5
+
+
+---
